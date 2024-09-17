@@ -289,7 +289,6 @@ async def on_ready():
     print(f'Logged in as {client.user}')
     await nuke_options(option, token)
 
-# Main flow
 def main():
     display_banner()
     global option
