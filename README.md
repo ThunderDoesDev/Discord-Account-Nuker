@@ -114,3 +114,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Disclaimer
 
 The creator of this script **does not take any responsibility for how the script is used**. Use this tool at your own risk. The author is not liable for any consequences or damages, including but not limited to account bans or data loss, that result from using this tool.
+
+## Support
+
+For support, issues, or enhancements, please open an issue in this repository or join our discord support server.
+
+[Join Support Server](https://discord.gg/thunderdoesdev)
