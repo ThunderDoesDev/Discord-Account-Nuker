@@ -37,8 +37,8 @@ Before performing any destructive action, the script prompts the user to confirm
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/discord-selfbot-nuker-js.git
-    cd discord-selfbot-nuker-js
+    git clone https://github.com/ThunderDoesDev/Discord-Account-Nuker.git
+    cd Discord-Account-Nuker
     ```
 
 2. Install the required dependencies:
@@ -52,8 +52,8 @@ Before performing any destructive action, the script prompts the user to confirm
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/discord-selfbot-nuker-py.git
-    cd discord-selfbot-nuker-py
+    git clone https://github.com/ThunderDoesDev/Discord-Account-Nuker.git
+    cd Discord-Account-Nuker
     ```
 
 2. Install the required dependencies:
