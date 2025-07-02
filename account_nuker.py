@@ -193,7 +193,7 @@ async def close_all_dms(token):
                                     retry_after = await delete_response.json()  
                                     logging.warning(f"Rate limited. Retrying after {retry_after['retry_after']} seconds...")
                                     await asyncio.sleep(retry_after['retry_after'])
-                                    await close_all_dms(session, base_url, headers, token) 
+                                    await close_all_dms(token)
                                 else:
                                     logging.error(f"Failed to delete DM: {channel_id} (status: {delete_response.status})")
                         except Exception as e:
@@ -230,7 +230,7 @@ async def remove_all_friends(token):
                                         retry_after = await delete_response.json()  
                                         logging.warning(f"Rate limited. Retrying after {retry_after['retry_after']} seconds...")
                                         await asyncio.sleep(retry_after['retry_after'])
-                                        await remove_all_friends(session, base_url, headers, token) 
+                                        await remove_all_friends(token)
                                     else:
                                         logging.error(f"Failed to remove friend: {friend['user']['username']} (status: {delete_response.status})")
                         except Exception as e:
