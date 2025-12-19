@@ -67,7 +67,7 @@ The script handles rate limiting with automatic retries if Discord API limits ar
 
 ## Notes
 
-- **Selfbots are against Discordâs Terms of Service**. Use this tool responsibly and be aware of the potential consequences, such as your account being banned.
+- **Selfbots are against Discord Terms of Service**. Use this tool responsibly and be aware of the potential consequences, such as your account being banned.
 - This script uses **direct API calls** in selfbot mode, meaning it logs in as a user account rather than a bot account.
 
 ## Future Enhancements
