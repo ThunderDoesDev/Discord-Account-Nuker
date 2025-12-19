@@ -1,9 +1,8 @@
-
 # Discord Account Nuker
 
-This script is a **selfbot** tool available in both Python and JavaScript. It automates destructive actions such as deleting friends, leaving/deleting guilds, and removing direct messages (DMs) from your Discord account using **direct API calls** via `axios` (for JavaScript) or `aiohttp` (for Python). It logs all activities and provides a user-friendly interface with multiple options. **Use with caution** as this script is designed for account nuking and violates Discord's Terms of Service.
+This script is a **selfbot** tool available in JavaScript. It automates destructive actions such as deleting friends, leaving/deleting guilds and removing direct messages (DMs) from your Discord account using **direct API calls** via `axios`. It logs all activities and provides a user-friendly interface with multiple options. **Use with caution** as this script is designed for account nuking and violates Discord's Terms of Service.
 
-## Features (Both Python and JavaScript)
+## Features
 
 - **Account Info Display**: Fetch and display information about your Discord account, including payment methods and subscriptions.
 - **Guild Management**: Automatically leave or delete Discord guilds depending on ownership status.
@@ -17,7 +16,7 @@ Before performing any destructive action, the script prompts the user to confirm
 
 ## Installation
 
-### Prerequisites (JavaScript Version)
+### Prerequisites
 
 - Node.js 14+
 - Required modules:
@@ -25,15 +24,7 @@ Before performing any destructive action, the script prompts the user to confirm
     npm install axios cli-progress
     ```
 
-### Prerequisites (Python Version)
-
-- Python 3.8+
-- Required modules:
-    ```bash
-    pip install discord aiohttp tqdm
-    ```
-
-### Setup (JavaScript)
+### Setup
 
 1. Clone this repository:
     ```bash
@@ -48,36 +39,14 @@ Before performing any destructive action, the script prompts the user to confirm
 
 3. Open the script `account_nuker.js` and run it.
 
-### Setup (Python)
-
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/ThunderDoesDev/Discord-Account-Nuker.git
-    cd Discord-Account-Nuker
-    ```
-
-2. Install the required dependencies:
-    ```bash
-    pip install discord aiohttp tqdm
-    ```
-
-3. Open the script `account_nuker.py` and run it.
-
 ## Usage
 
-1. Run the script (JavaScript):
+1. Run the script:
     ```bash
     node account_nuker.js
     ```
 
-   OR
-
-   Run the script (Python):
-    ```bash
-    python account_nuker.py
-    ```
-
-2. Enter your **Discord user token** when prompted. To find your token, follow these [instructions](https://www.androidauthority.com/get-discord-token-3149920/).
+2. Enter your **Discord user token** when prompted. To find your token, follow these instructions.
 
 3. Select an option from the menu:
     - **1**: Show account information.
@@ -94,11 +63,11 @@ All activities are logged into the `account_nuker.log` file. Each action is reco
 
 ### Rate Limits
 
-Both scripts handle rate limiting with automatic retries if Discord API limits are hit during operations such as removing friends or leaving guilds.
+The script handles rate limiting with automatic retries if Discord API limits are hit during operations such as removing friends or leaving guilds.
 
 ## Notes
 
-- **Selfbots are against Discord’s Terms of Service**. Use this tool responsibly and be aware of the potential consequences, such as your account being banned.
+- **Selfbots are against Discordâs Terms of Service**. Use this tool responsibly and be aware of the potential consequences, such as your account being banned.
 - This script uses **direct API calls** in selfbot mode, meaning it logs in as a user account rather than a bot account.
 
 ## Future Enhancements
